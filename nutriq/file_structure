@@ -1,0 +1,29 @@
+📂 nutriq_app
+│── 📂 android               # Android native code
+│── 📂 ios                   # iOS native code
+│── 📂 assets                # Images, icons, JSON files
+│   ├── 📂 images
+│   ├── 📂 icons
+│   ├── 📂 fonts
+│── 📂 lib                   # Main Flutter app
+│   ├── 📂 main.dart         # Entry point of the app
+│   ├── 📂 core              # App-wide utilities and themes
+│   │   ├── theme.dart       # Colors, fonts, text styles
+│   │   ├── constants.dart   # App constants (e.g. API keys)
+│   ├── 📂 data              # Data layer (API, models, providers)
+│   │   ├── models           # Data models (e.g., Food, User)
+│   │   ├── services         # API & Database services
+│   │   ├── providers        # State management (e.g. Riverpod, Provider)
+│   ├── 📂 screens           # UI screens/pages
+│   │   ├── home.dart        # Home screen (Dashboard)
+│   │   ├── analytics.dart   # User analytics screen
+│   │   ├── settings.dart    # Settings page
+│   │   ├── scanner.dart     # Food scanner page
+│   │   ├── nutrition.dart   # Detailed food info page
+│   ├── 📂 widgets           # Reusable UI components
+│   │   ├── food_card.dart   # Food list item component
+│   │   ├── progress_chart.dart # Progress tracking chart
+│   │   ├── calorie_display.dart # Calories left UI
+│── 📂 test                  # Unit and widget tests
+│── pubspec.yaml             # Dependencies & project config
+│── README.md                # Project documentation
